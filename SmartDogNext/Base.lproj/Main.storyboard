@@ -62,21 +62,47 @@
                                     <constraint firstAttribute="height" constant="90" id="kbj-VL-Mfy"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc8" translatesAutoresizingMaskIntoConstraints="NO" id="kHF-bZ-xU3">
+                                <rect key="frame" x="171.5" y="322" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="FJ8-OI-WhT"/>
+                                    <constraint firstAttribute="height" constant="90" id="L6c-O0-1iH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dse-om-vCE">
+                                <rect key="frame" x="157.5" y="363" width="5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc7" translatesAutoresizingMaskIntoConstraints="NO" id="Dx6-e4-gsk">
+                                <rect key="frame" x="58.5" y="322" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="UpT-gx-cMZ"/>
+                                    <constraint firstAttribute="height" constant="90" id="lGk-2n-q7P"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Dx6-e4-gsk" firstAttribute="top" secondItem="9lo-Ee-rYj" secondAttribute="bottom" constant="8" id="2fq-6g-aBZ"/>
                             <constraint firstItem="9lo-Ee-rYj" firstAttribute="leading" secondItem="3v0-et-Ivs" secondAttribute="trailing" constant="9" id="2jN-Zb-QjR"/>
                             <constraint firstItem="Dfw-rd-gu6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="3LP-eG-hLg"/>
+                            <constraint firstItem="kHF-bZ-xU3" firstAttribute="leading" secondItem="Dse-om-vCE" secondAttribute="trailing" constant="9" id="3mo-nf-8VJ"/>
                             <constraint firstItem="9lo-Ee-rYj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="443-0K-DI5"/>
                             <constraint firstItem="kUP-Fg-fac" firstAttribute="top" secondItem="D1j-wc-F7O" secondAttribute="bottom" constant="24" id="4fF-rD-Dsy"/>
                             <constraint firstItem="Dfw-rd-gu6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Y7-CJ-Ni4"/>
                             <constraint firstItem="kUP-Fg-fac" firstAttribute="leading" secondItem="9lo-Ee-rYj" secondAttribute="trailing" constant="9" id="82c-TQ-kdw"/>
                             <constraint firstItem="D1j-wc-F7O" firstAttribute="leading" secondItem="Dfw-rd-gu6" secondAttribute="trailing" constant="9" id="FFR-b5-A7T"/>
+                            <constraint firstItem="Dse-om-vCE" firstAttribute="leading" secondItem="Dx6-e4-gsk" secondAttribute="trailing" constant="9" id="Hjk-1e-F7R"/>
                             <constraint firstItem="j2C-fS-Ths" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="Ibr-kE-Nue"/>
                             <constraint firstItem="9lo-Ee-rYj" firstAttribute="top" secondItem="Dfw-rd-gu6" secondAttribute="bottom" constant="24" id="KeY-OF-fhq"/>
                             <constraint firstItem="3v0-et-Ivs" firstAttribute="top" secondItem="j2C-fS-Ths" secondAttribute="bottom" constant="24" id="NSs-Xp-4sx"/>
+                            <constraint firstItem="Dse-om-vCE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cxm-CF-2nA"/>
                             <constraint firstItem="TiZ-7q-0Pl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d1O-IM-Nvc"/>
                             <constraint firstItem="Dfw-rd-gu6" firstAttribute="leading" secondItem="j2C-fS-Ths" secondAttribute="trailing" constant="9" id="h3W-hZ-meS"/>
+                            <constraint firstItem="Dse-om-vCE" firstAttribute="top" secondItem="9lo-Ee-rYj" secondAttribute="bottom" constant="49" id="ijO-GD-MND"/>
+                            <constraint firstItem="kHF-bZ-xU3" firstAttribute="top" secondItem="9lo-Ee-rYj" secondAttribute="bottom" constant="8" id="laS-vo-Tvz"/>
                             <constraint firstItem="TiZ-7q-0Pl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lzG-KK-Bg0"/>
                             <constraint firstItem="TiZ-7q-0Pl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nEQ-u5-x1I"/>
                             <constraint firstItem="D1j-wc-F7O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="qAE-rA-QLe"/>
@@ -98,5 +124,7 @@
         <image name="btnc4" width="130" height="126"/>
         <image name="btnc5" width="130" height="126"/>
         <image name="btnc6" width="130" height="126"/>
+        <image name="btnc7" width="130" height="126"/>
+        <image name="btnc8" width="130" height="126"/>
     </resources>
 </document>
